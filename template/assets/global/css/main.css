@@ -1,0 +1,23 @@
+.icon-edit{
+  background-image: url(../images/pencil.png);
+  width: 16px;
+  height: 16px;
+}
+
+.icon-check{
+  background-image: url(../images/check.png);
+  width: 16px;
+  height: 16px;
+}
+
+.icon-add{
+  background-image: url(../images/plus.png);
+  width: 10px;
+  height: 10px;
+}
+
+/*tables*/
+table  {color:#173570;}
+table a, table a:visited, a:hover {color:#0F3EB6; text-decoration: none;}
+
+table tr.rounded-border {border-radius: 25px; border: 2px solid #73AD21;}
