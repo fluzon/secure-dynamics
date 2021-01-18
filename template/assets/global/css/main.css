@@ -4,7 +4,7 @@
   height: 16px;
 }
 
-.icon-check{
+.icon-newcheck{
   background-image: url(../images/check.png);
   width: 16px;
   height: 16px;
@@ -12,12 +12,107 @@
 
 .icon-add{
   background-image: url(../images/plus.png);
-  width: 10px;
-  height: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #0F3EB6;
+
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+
 }
 
-/*tables*/
-table  {color:#173570;}
-table a, table a:visited, a:hover {color:#0F3EB6; text-decoration: none;}
+.icon-search{
+  background-image: url(../images/search.png);
+  width: 16px;
 
-table tr.rounded-border {border-radius: 25px; border: 2px solid #73AD21;}
+  height: 16px;
+}
+
+.options {
+  padding-top: 15px;
+}
+
+.options .icon-add {
+  float: right;
+}
+
+span.title {
+  margin-left: 5px;
+  float: right;
+}
+
+.options a, .options a:visited, .options a:hover {color:#0F3EB6; text-decoration: none;}
+
+
+.rounded-border {
+  border: 3px solid #F0F6FF;
+  box-sizing: border-box;
+  -webkit-border-radius: .50rem!important;
+  -moz-border-radius: .50rem!important;
+  border-radius: .50rem!important;
+
+}
+
+.search-button {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  background-color: white;
+  border: none;
+}
+
+.search-products-input {
+  border: 3px solid #F0F6FF;
+  box-sizing: border-box;
+  -webkit-border-radius: .50rem!important;
+  -moz-border-radius: .50rem!important;
+  border-radius: .50rem!important;
+  padding-left: 35px;
+  width: 80%;
+  height: 50px;
+  color: #173570;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #173570;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #173570;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #173570;
+}
+
+.table-icon-option {
+  display:inline-block;
+  width: 25px;
+}
+
+table {
+    border-collapse:separate;
+    border:solid #F0F6FF 1px;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    -webkit-border-radius: .50rem!important;
+    -moz-border-radius: .50rem!important;
+}
+
+td, th {
+    border-left:solid #F0F6FF 1px;
+    border-top:solid #F0F6FF 1px;
+}
+
+th {
+    border-top: none;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}

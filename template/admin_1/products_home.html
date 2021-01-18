@@ -2312,28 +2312,36 @@ License: You must have a valid license purchased only from themeforest(the above
                         <!-- BEGIN PAGE TITLE-->
                         <h1 class="page-title"> Products </h1>
                         <!-- END PAGE TITLE-->
+
                         <!-- END PAGE HEADER-->
-                        <div class="note note-info">
-                            <p> Full width & fluid layout with horizontal mega menu. </p>
-                        </div>
-
                         <div class="container-fluid">
-
+                          <div class="row">
+                            <div class="col-md-8">
+                              <form class="">
+                                  <input type="text" class="search-products-input" placeholder="Search products or groups" class="form-control">
+                                  <button type="submit" class="search-button"><i class="icon-search"></i></button>
+                              </form>
+                            </div>
+                            <div class="col-md-2 options">
+                              <a class="" href="javascript:;">
+                                <span class="title">Add Product</span>
+                                <i class="icon-add"></i>
+                              </a>
+                            </div>
+                            <div class="col-md-2 options">
+                              <a class="" href="javascript:;">
+                                <span class="title">Add Group Product</span>
+                                <i class="icon-add"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12">&nbsp;</div>
+                          </div>
                           <div class="row">
                             <div class="col-md-12">
-                              <div class="table-responsive">
-                                <table class="table">
-                                <tr class="rounded-border">
-                                  <td colspan="6"> <input type="text"> </td>
-                                  <td colspan="3">
-                                    <a class="btn btn-icon-only" href="javascript:;"><i class="icon-add"></i>Add Product</a>
-                                  </td>
-                                  <td>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td colspan="9">&nbsp;</td>
-                                </tr>
+                                <table class="table table-responsive">
+                                <thead>
                                 <tr class="table-header">
                                   <th>Brand</th>
                                   <th>Category</th>
@@ -2343,8 +2351,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                   <th>MRP</th>
                                   <th>Current Stock</th>
                                   <th>Threshold</th>
-                                  <th>&nbsp;</th>
+                                  <th class="last-cell">&nbsp;</th>
                                 </tr>
+                                </thead>
                                 <tbody>
                                   <tr>
                                     <td><a href="#">Republic Windows and Doors</a></td>
@@ -2354,26 +2363,22 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <td>1.75</td>
                                     <td>1.85</td>
                                     <td>60</td>
-                                    <td class="sample">15</td>
+                                    <td>15</td>
                                     <td>
-                                      <a class="btn btn-icon-only" href="javascript:;">
+                                      <a class="table-icon-option" href="javascript:;">
                                           <i class="icon-edit"></i>
                                       </a>
 
-                                      <a class="btn btn-icon-only" href="javascript:;">
-                                          <i class="icon-check"></i>
+                                      <a class="table-icon-option" href="javascript:;">
+                                          <i class="icon-newcheck"></i>
                                       </a>
                                     </td>
                                   </tr>
                                 </tbody>
                               </table>
                             </div>
-
-
-
-                                </div>
-                              </div>
-                            </div><!-- end container -->
+                          </div>
+                        </div><!-- end container -->
 
 
 
