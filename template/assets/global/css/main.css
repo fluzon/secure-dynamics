@@ -66,7 +66,7 @@ span.title {
 }
 
 .search-products-input {
-  border: 3px solid #F0F6FF;
+  border: 1px solid #F0F6FF;
   box-sizing: border-box;
   -webkit-border-radius: .50rem!important;
   -moz-border-radius: .50rem!important;
@@ -90,29 +90,50 @@ span.title {
   color: #173570;
 }
 
+
 .table-icon-option {
   display:inline-block;
   width: 25px;
 }
 
-table {
+.table {
     border-collapse:separate;
     border:solid #F0F6FF 1px;
-    border-radius:6px;
-    -moz-border-radius:6px;
+    border-radius:.50rem!important;
+    -moz-border-radius:.50rem!important;
     -webkit-border-radius: .50rem!important;
     -moz-border-radius: .50rem!important;
 }
-
-td, th {
+.table > thead > tr > th {
+  border-bottom: 0;
+}
+.table td, th {
     border-left:solid #F0F6FF 1px;
     border-top:solid #F0F6FF 1px;
+    color: #173570;
 }
 
-th {
-    border-top: none;
+.table th {
+    border-bottom: none;
+    border: none;
 }
 
 td:first-child, th:first-child {
      border-left: none;
+}
+
+
+
+/*product groups*/
+.table-hover > tbody > tr:hover, .table > tbody > tr.active > td, .table > tbody > tr.active > th, .table > tbody > tr > td.active, .table > tbody > tr > th.active, .table > tfoot > tr.active > td, .table > tfoot > tr.active > th, .table > tfoot > tr > td.active, .table > tfoot > tr > th.active, .table > thead > tr.active > td, .table > thead > tr.active > th, .table > thead > tr > td.active, .table > thead > tr > th.active
+{
+  background-color: #F0F6FF;
+  color: #173570;
+}
+
+.product-group {
+  background-image: url(../images/group.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-left: 20px;
 }
