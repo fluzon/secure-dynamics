@@ -1,1 +1,41 @@
 /* here you can put your own css to customize and override the theme */
+
+/*
+this is for background in gray, but it's too gray for me
+
+.page-container-bg-solid .page-content {
+    background: #E5E5E5;
+}
+*/
+
+.panel.panel-container {
+  background-color: white;
+  border: 1px solid #F0F6FF;
+  border: 1px solid red;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 24px rgba(40, 112, 152, 0.08);
+  -webkit-border-radius: 1.25rem!important;
+  -moz-border-radius: 1.25rem!important;
+  border-radius: 1.25rem!important;
+
+}
+
+.panel.panel-container .panel-body.bordered {
+  border-top: 1px solid #F0F6FF;
+}
+
+
+.panel.panel-indicator {
+  background-color: blue;
+  border: 1px solid #F0F6FF;
+  border: 1px solid red;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 24px rgba(40, 112, 152, 0.08);
+  -webkit-border-radius: 1.25rem!important;
+  -moz-border-radius: 1.25rem!important;
+  border-radius: 1.25rem!important;
+}
+
+.indicators.list-inline li {
+  width: 25%;
+}
