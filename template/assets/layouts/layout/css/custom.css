@@ -34,8 +34,28 @@ this is for background in gray, but it's too gray for me
   -webkit-border-radius: 1.25rem!important;
   -moz-border-radius: 1.25rem!important;
   border-radius: 1.25rem!important;
+  width: 95%;
 }
 
-.indicators.list-inline li {
-  width: 25%;
+.panel.panel-product-data {
+  background-color: green;
+  border: 1px solid #F0F6FF;
+  border: 1px solid red;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 24px rgba(40, 112, 152, 0.08);
+  -webkit-border-radius: 1.25rem!important;
+  -moz-border-radius: 1.25rem!important;
+  border-radius: 1.25rem!important;
+}
+
+.custom-column
+{
+  display: inline-block;
+  float: left;
+  border: 1px dashed blue;
+  width: 20%;
+}
+
+.custom-column.last .panel-indicator{
+  float: right;
 }
