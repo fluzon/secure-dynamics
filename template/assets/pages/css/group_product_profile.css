@@ -55,9 +55,6 @@
   font-size: 24px;
   line-height: 33px;
   font-weight: bold;
-  /* identical to box height */
-
-  /* 3 */
   color: #173570;
  }
 
@@ -213,4 +210,26 @@
   background-image: url(../../global/images/height.png);
   background-repeat: no-repeat;
   background-position: left;
+}
+
+/* table head names*/
+.table thead tr th {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #173570;
+}
+
+.table tr td {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #173570;
+}
+
+.table tr td a {
+  text-decoration: none;
 }

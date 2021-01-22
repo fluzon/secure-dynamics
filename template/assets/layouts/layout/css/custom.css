@@ -1,5 +1,39 @@
 /* here you can put your own css to customize and override the theme */
 
+/* rounded corner table*/
+.table-icon-option {
+  display:inline-block;
+  width: 25px;
+}
+
+.table {
+    border-collapse:separate;
+    border:solid #F0F6FF 1px;
+    border-radius:.50rem!important;
+    -moz-border-radius:.50rem!important;
+    -webkit-border-radius: .50rem!important;
+    -moz-border-radius: .50rem!important;
+}
+.table > thead > tr > th {
+  border-bottom: 0;
+}
+.table td, th {
+    border-left:solid #F0F6FF 1px;
+    border-top:solid #F0F6FF 1px;
+    color: #173570;
+}
+
+.table th {
+    border-bottom: none;
+    border: none;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}
+
+
+
 /*
 this is for background in gray, but it's too gray for me
 
@@ -37,4 +71,10 @@ this is for background in gray, but it's too gray for me
   font-size: 4rem;
   color: #F0F6FF;
   padding: 5px;
+}
+
+
+.space-16 {
+  display: block;
+  height: 16px;
 }
