@@ -1,13 +1,217 @@
-/*general*/
+/*product profile*/
 
-.panel.panel-container {
-  background-color: white;
+.barcode-number {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  /* Gray 1 */
+  color: #333333;
+}
+
+/* product panel detail info*/
+.product_name {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  padding-top: 32px;
+  padding-bottom: 28px;
+  display: block;
+
+  /* 3 */
+  color: #173570;
+}
+
+.panel.panel-indicator {
+  background-color: #F9FBFF;
   border: 1px solid #F0F6FF;
-  border: 1px solid red;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 24px rgba(40, 112, 152, 0.08);
+  -webkit-border-radius: 1.25rem!important;
+  -moz-border-radius: 1.25rem!important;
+  border-radius: 1.25rem!important;
+  width: 95%;
+}
+
+.indicator-name {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* 1 */
+  color: #0F3EB6;
+}
+
+ .indicator-number {
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: bold;
+  /* identical to box height */
+
+  /* 3 */
+  color: #173570;
+ }
+
+.panel.panel-product-data {
+  border: 1px solid #F0F6FF;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 24px rgba(40, 112, 152, 0.08);
+  -webkit-border-radius: 1.25rem!important;
+  -moz-border-radius: 1.25rem!important;
+  border-radius: 1.25rem!important;
+}
+
+.custom-column
+{
+  display: inline-block;
+  float: left;
+  width: 20%;
+}
+
+.custom-column.last .panel-indicator{
+  float: right;
+}
+
+.product-info-block {
+  /* 4 */
+  padding-bottom: 24px;
+  border-bottom: 1px solid #F0F6FF;
+  margin-bottom: 20px;
+}
+
+.product-info-block .title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  /* 3 */
+  color: #173570;
+}
+
+.product-info-block  .value {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: block;
+  margin-top: 8px;
+  /* 3 */
+  color: #173570;
+}
+
+.payment-option {
+  display: inline-block;
+  background-image: url(../../global/images/check.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  margin-top: 9px;
+  padding-left: 22px;
+  padding-right: 13px;
+  height: 16px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* 3 */
+  color: #173570;
+
+}
+
+.product-tags {
+    margin-top: 16px;
+    padding: 0px;
+}
+
+.product-tags li {
+  display: inline-block;
+  height: 28px;
+
+  background: #F0F6FF;
   box-sizing: border-box;
   box-shadow: 0px 2px 24px rgba(40, 112, 152, 0.08);
   -webkit-border-radius: 1.25rem!important;
   -moz-border-radius: 1.25rem!important;
   border-radius: 1.25rem!important;
 
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+
+  padding: 6px 14px 6px 14px;
+  margin: 0;
+  /* 3 */
+  color: #173570;
+
+}
+
+
+.product-data-name {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  display: block;
+  /* 1 */
+  color: #0F3EB6;
+  margin-left: -30px;
+
+}
+
+.product-data-value {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #173570;
+
+}
+.icon-weight {
+    background-image: url(../../global/images/weight.png);
+    width: 14px;
+    height: 18px;
+}
+
+.icon-shipping {
+  background-image: url(../../global/images/shipping.png);
+  width: 20px;
+  height: 12px;
+}
+
+.icon-length {
+  background-image: url(../../global/images/length.png);
+  width: 16px;
+  height: 16px;
+}
+
+.icon-width {
+  background-image: url(../../global/images/width.png);
+  width: 20px;
+  height: 20px;
+}
+
+
+.icon-height {
+  background-image: url(../../global/images/height.png);
+  width: 20px;
+  height: 20px;
 }

@@ -11,7 +11,6 @@ this is for background in gray, but it's too gray for me
 .panel.panel-container {
   background-color: white;
   border: 1px solid #F0F6FF;
-  border: 1px solid red;
   box-sizing: border-box;
   box-shadow: 0px 2px 24px rgba(40, 112, 152, 0.08);
   -webkit-border-radius: 1.25rem!important;
@@ -24,38 +23,18 @@ this is for background in gray, but it's too gray for me
   border-top: 1px solid #F0F6FF;
 }
 
-
-.panel.panel-indicator {
-  background-color: blue;
-  border: 1px solid #F0F6FF;
-  border: 1px solid red;
-  box-sizing: border-box;
-  box-shadow: 0px 2px 24px rgba(40, 112, 152, 0.08);
-  -webkit-border-radius: 1.25rem!important;
-  -moz-border-radius: 1.25rem!important;
-  border-radius: 1.25rem!important;
-  width: 95%;
+.no-bottom-border {
+  border-bottom: 0px;
 }
 
-.panel.panel-product-data {
-  background-color: green;
-  border: 1px solid #F0F6FF;
-  border: 1px solid red;
-  box-sizing: border-box;
-  box-shadow: 0px 2px 24px rgba(40, 112, 152, 0.08);
-  -webkit-border-radius: 1.25rem!important;
-  -moz-border-radius: 1.25rem!important;
-  border-radius: 1.25rem!important;
+.bullet-picture-selected {
+  font-size: 4rem;
+  color: #0F3EB6;
+  padding: 5px;
 }
 
-.custom-column
-{
-  display: inline-block;
-  float: left;
-  border: 1px dashed blue;
-  width: 20%;
-}
-
-.custom-column.last .panel-indicator{
-  float: right;
+.bullet-picture-unselected {
+  font-size: 4rem;
+  color: #F0F6FF;
+  padding: 5px;
 }
