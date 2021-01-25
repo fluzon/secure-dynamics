@@ -73,8 +73,165 @@ this is for background in gray, but it's too gray for me
   padding: 5px;
 }
 
+/* form input */
+.input-icon > i {
+  position: absolute;
+  margin: 10px 2px 4px 10px;
+  width: 20px;
+  z-index: 3;
+}
 
+.input-icon > .form-control {
+  padding-left: 36px;
+}
+
+.form-control {
+  border: 1px solid #F0F6FF;
+  -webkit-border-radius: 1.25rem!important;
+  -moz-border-radius: 1.25rem!important;
+  border-radius: 1.25rem!important;
+}
+
+/*input with right side selector*/
+.input-with-right-side-selector {
+    border: 1px solid #F0F6FF;
+    box-sizing: border-box;
+    border-radius:1.25rem!important;
+    -moz-border-radius:1.25rem!important;
+    -webkit-border-radius: 1.25rem!important;
+    -moz-border-radius: 1.25rem!important;
+
+}
+
+.input-with-right-side-selector .input-icon input[type="text"]{
+   border: 0;
+   max-width: 100px;
+}
+
+.input-with-right-side-selector .single-selector{
+
+  background-color: white;
+  border: 0;
+
+}
+
+.vertical-line {
+  border-left: 1px solid #F0F6FF;
+}
+
+
+/*form checkbox*/
+.mt-checkbox {
+  padding-left: 25px;
+}
+.mt-checkbox > input:not([disabled]):checked ~ span, .mt-checkbox > input:checked ~ span {
+  background-color: #0F3EB6;
+  border: 1px solid #F0F6FF;
+  -webkit-border-radius: 0.25rem!important;
+  -moz-border-radius: 0.25rem!important;
+  border-radius: 0.25rem!important;
+}
+
+.mt-checkbox:hover > input:not([disabled]):checked ~ span, .mt-checkbox > input:checked ~ span {
+  background-color: #0F3EB6;
+  border: 1px solid #F0F6FF;
+  -webkit-border-radius: 0.25rem!important;
+  -moz-border-radius: 0.25rem!important;
+  border-radius: 0.25rem!important;
+}
+
+.mt-checkbox:hover > input:not([disabled]) ~ span, .mt-checkbox > input:focus ~ span {
+    background: white;
+    webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.mt-checkbox > span::after {
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.mt-checkbox > span {
+    border: 1px solid transparent;
+    background: white;
+}
+
+.mt-checkbox > span {
+  border: 1px solid #F0F6FF;
+  -webkit-border-radius: 0.25rem!important;
+  -moz-border-radius: 0.25rem!important;
+  border-radius: 0.25rem!important;
+}
+.mt-checkbox input {
+  background-color: red;
+}
+.mt-checkbox {
+  padding-right: 20px;
+  min-width: 100px;
+}
+
+/*button*/
+
+.btn.icon-button > i {
+  float:left;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.icon-button{
+  background-color: white;
+  border: 1px solid #F0F6FF;
+  -webkit-border-radius: 0.25rem!important;
+  -moz-border-radius: 0.25rem!important;
+  border-radius: 0.25rem!important;
+}
+
+/* breadcrumb */
+.page-content-white .page-bar .page-toolbar, .page-container-bg-solid .page-bar .page-toolbar {
+  padding-top: 10px;
+}
+.page-content-white .page-bar .page-breadcrumb > li > a, .page-bar .page-breadcrumb > li > span {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #173570;
+  opacity: 0.5;
+
+}
+
+.page-bar .page-breadcrumb > li > span.darkblue {
+  color: #173570;
+  opacity: 1;
+}
+
+/**/
 .space-16 {
   display: block;
   height: 16px;
+}
+
+
+.selector-down {
+  background-image: url(../../../global/images/selector-down.png);
+  background-repeat: no-repeat;
+  background-position: left 5px;
+}
+
+.margin-top20 {
+  margin-top: 20px;
 }
