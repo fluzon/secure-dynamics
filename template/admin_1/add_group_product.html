@@ -34,6 +34,7 @@ License: You must have a valid license purchased only from themeforest(the above
         <link href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
         <!-- END GLOBAL MANDATORY STYLES -->
         <!-- BEGIN PAGE LEVEL PLUGINS -->
+        <link href="../assets/pages/css/tagsinput.css" rel="stylesheet" type="text/css" />
         <link href="../assets/global/plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
         <!-- END PAGE LEVEL PLUGINS -->
         <!-- BEGIN THEME GLOBAL STYLES -->
@@ -109,16 +110,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                       <div class="row margin-top20 separator-line">
                                         <div class="col-md-12">
                                           <!-- BEGING Group Product Items -->
-                                          <div class="container-fluid">
+                                          <div class="container-fluid" id="product-items">
                                             <div class="row">
                                               <div class="col-md-11">
                                                 <span class="title">Group Product Items</span>
                                               </div>
                                               <div class="col-md-1">
-                                                <a href="javascript:;" class="btn plus-button">&nbsp;</a>
+                                                <a href="javascript:;" id="add-item-button" class="btn plus-button">&nbsp;</a>
                                               </div>
                                             </div>
-                                            <div class="row">
+                                            <div class="row" id="group-row-header">
                                               <div class="col-md-2 title">Product #</div>
                                               <div class="col-md-3 title">Product Title</div>
                                               <div class="col-md-2 title">Quantity</div>
@@ -126,13 +127,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                               <div class="col-md-2 title">Sell Price</div>
                                               <div class="col-md-1">&nbsp;</div>
                                             </div>
-                                            <div class="row margin-top10">
+                                            <div class="row margin-top10" id="product-item1">
                                               <div class="col-md-2"><input type="text" class="form-control" placeholder="" style="max-width:100px;"></div>
                                               <div class="col-md-3"><input type="text" class="form-control" placeholder="" style="max-width:220px;"></div>
                                               <div class="col-md-2"><input type="text" class="form-control" placeholder="" style="max-width:100px;"></div>
                                               <div class="col-md-2"><input type="text" class="form-control" placeholder="" style="max-width:100px;"></div>
                                               <div class="col-md-2"><input type="text" class="form-control" placeholder="" style="max-width:100px;"></div>
-                                              <div class="col-md-1"><a href="javascript:;" class="btn minus-button">&nbsp;</a></div>
+                                              <div class="col-md-1">&nbsp;</div>
                                             </div>
                                           </div>
                                           <!-- END Group Product Items -->
@@ -293,7 +294,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         <div class="col-md-12">
                                           <span class="title">Search Tags</span>
                                           <span class="space-16"></span>
-                                          <input type="text" class="form-control" placeholder="Press enter to create new tag">
+                                          <input type="text" class="form-control" placeholder="Press enter to create new tag" data-role="tagsinput">
                                         </div>
                                       </div>
                                     </div>
@@ -394,6 +395,7 @@ License: You must have a valid license purchased only from themeforest(the above
         <!-- END CORE PLUGINS -->
 
         <!-- BEGIN PAGE LEVEL PLUGINS -->
+        <script src="../assets/global/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js" type="text/javascript"></script>
         <script src="../assets/global/plugins/bootstrap-select/js/bootstrap-select.min.js" type="text/javascript"></script>
         <!-- END PAGE LEVEL PLUGINS -->
 
@@ -402,6 +404,7 @@ License: You must have a valid license purchased only from themeforest(the above
         <!-- END THEME GLOBAL SCRIPTS -->
         <!-- BEGIN PAGE LEVEL SCRIPTS -->
         <script src="../assets/pages/scripts/components-bootstrap-select.min.js" type="text/javascript"></script>
+        <script src="../assets/pages/scripts/products.js" type="text/javascript"></script>
         <!-- END PAGE LEVEL SCRIPTS -->
         <!-- BEGIN THEME LAYOUT SCRIPTS -->
         <script src="../assets/layouts/layout/scripts/layout.min.js" type="text/javascript"></script>

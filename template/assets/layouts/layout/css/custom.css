@@ -1,18 +1,5 @@
 /* here you can put your own css to customize and override the theme */
 
-/*forms*/
-.form-control {
-  font-size: 14px;
-  color: #173570;
-}
-
-.form-control::-webkit-input-placeholder { color: #173570; }  /* WebKit, Blink, Edge */
-.form-control:-moz-placeholder { color: #173570; }  /* Mozilla Firefox 4 to 18 */
-.form-control::-moz-placeholder { color: #173570; }  /* Mozilla Firefox 19+ */
-.form-control:-ms-input-placeholder { color: #173570; }  /* Internet Explorer 10-11 */
-.form-control::-ms-input-placeholder { color: #173570; }  /* Microsoft Edge */
-
-
 /* rounded corner table*/
 .table-icon-option {
   display:inline-block;
@@ -86,7 +73,14 @@ this is for background in gray, but it's too gray for me
   padding: 5px;
 }
 
-/* form input */
+/*forms*/
+.form-control::-webkit-input-placeholder { color: #173570; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: #173570; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: #173570; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: #173570; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: #173570; }  /* Microsoft Edge */
+
+
 .input-icon > i {
   position: absolute;
   margin: 10px 2px 4px 10px;
@@ -103,6 +97,9 @@ this is for background in gray, but it's too gray for me
   -webkit-border-radius: 1.25rem!important;
   -moz-border-radius: 1.25rem!important;
   border-radius: 1.25rem!important;
+  font-size: 14px;
+  color: #173570;
+
 }
 
 /*input with right side selector*/
@@ -256,4 +253,18 @@ this is for background in gray, but it's too gray for me
 .separator-line {
   border-bottom: 1px solid #F0F6FF;
   padding-bottom: 32px;
+}
+
+/* tags */
+.bootstrap-tagsinput .tag {
+  color: #173570;
+  font-weight: 600;
+}
+.label {
+}
+.label-info {
+  background-color: #F0F6FF;
+  -webkit-border-radius: 1.25rem!important;
+  -moz-border-radius: 1.25rem!important;
+  border-radius: 1.25rem!important;
 }
