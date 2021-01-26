@@ -233,3 +233,61 @@
 .table tr td a {
   text-decoration: none;
 }
+
+/* carousel*/
+.carousel {
+  margin-bottom: 0px;
+}
+
+.carousel-control.left {
+  background-image: none;
+  filter: none;
+}
+
+.carousel-control.right {
+  background-image: none;
+  filter: none;
+
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel .item {
+  border-bottom: 1px solid #F0F6FF;
+  padding-bottom: 15px;
+}
+.carousel-inner > .item > img {
+  margin: auto;
+}
+
+.carousel-indicators {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  z-index: 15;
+  width: 60%;
+  text-align: center;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  background-color: #F0F6FF;
+  -webkit-border-radius: 1rem!important;
+  -moz-border-radius: 1rem!important;
+  border-radius: 1rem!important;
+}
+
+.carousel-indicators .active{
+  border: 0;
+  background-color: #0F3EB6;
+  -webkit-border-radius: 1rem!important;
+  -moz-border-radius: 1rem!important;
+  border-radius: 1rem!important;
+}
+
+#myCarousel {
+  margin-bottom: 0px;
+}
