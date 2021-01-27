@@ -197,7 +197,7 @@
 .icon-scan {
   background-image: url(../../global/images/scan.png);
   background-repeat: no-repeat;
-  background-position: center;
+  height: 14px;
 }
 
 .icon-info {

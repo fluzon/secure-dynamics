@@ -256,3 +256,28 @@ this is for background in gray, but it's too gray for me
   -moz-border-radius: 1.25rem!important;
   border-radius: 1.25rem!important;
 }
+
+/* scan page */
+.modal-dialog {
+  width: 460px;
+}
+
+.modal-content {
+  border: 1px solid #F0F6FF;
+  -webkit-border-radius: 1.25rem!important;
+  -moz-border-radius: 1.25rem!important;
+  border-radius: 1.25rem!important;
+}
+
+.scanning_message {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #173570;
+}
+.modal-header .close{
+  background-image: url(../../global/images/close.png) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  opacity: 1;
+}
