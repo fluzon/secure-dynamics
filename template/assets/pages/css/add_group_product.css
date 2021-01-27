@@ -290,6 +290,7 @@ a.add-option:hover  {color:#0F3EB6; text-decoration: none;}
 }
 
 .added-photo {
+  position: relative;
   margin: 5px;
   padding: 3px;
   border: 1px solid #F0F6FF;
@@ -316,17 +317,22 @@ a.add-option:hover  {color:#0F3EB6; text-decoration: none;}
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 60px;
   color: #173570;
-  /*max-width: 80px;*/
-  text-align: center;
 }
 
 [class*=" fa-"]:not(.fa-stack).remove, [class^="fa-"]:not(.fa-stack).remove {
     line-height: 60px;
 }
+
 .remove {
   font-size: 1.5rem;
+  position: absolute;
+  top: 0px;
+  right: 15px;
+}
+
+.remove:hover {
+  text-decoration: none;
 }
 
 /*css rules added for Add Group Product*/
