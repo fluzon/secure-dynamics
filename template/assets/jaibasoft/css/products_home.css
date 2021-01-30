@@ -1,24 +1,24 @@
 .icon-edit{
-  background-image: url(../../global/images/pencil.png);
+  background-image: url(../images/pencil.png);
   width: 16px;
   height: 16px;
 }
 
 .icon-newcheck{
-  background-image: url(../../global/images/check.png);
+  background-image: url(../images/check.png);
   width: 16px;
   height: 16px;
 }
 
 .icon-search{
-  background-image: url(../../global/images/search.png);
+  background-image: url(../images/search.png);
   width: 16px;
 
   height: 16px;
 }
 
 .add-option{
-  background-image: url(../../global/images/plus.png);
+  background-image: url(../images/plus.png);
   background-position: 0px;
   background-size: 19px 19px;
   background-repeat: no-repeat;

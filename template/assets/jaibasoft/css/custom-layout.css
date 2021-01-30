@@ -242,7 +242,7 @@ this is for background in gray, but it's too gray for me
 
 
 .selector-down {
-  background-image: url(../../../global/images/selector-down.png);
+  background-image: url(../images/selector-down.png);
   background-repeat: no-repeat;
   background-position: left 5px;
 }
@@ -294,7 +294,7 @@ this is for background in gray, but it's too gray for me
 }
 
 .modal-header .close{
-  background-image: url(../../global/images/close.png) !important;
+  background-image: url(../images/close.png) !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   opacity: 1;
@@ -304,4 +304,11 @@ this is for background in gray, but it's too gray for me
   -webkit-border-radius: 8px!important;
   -moz-border-radius: 8px!important;
   border-radius: 8px!important;
+}
+
+
+/*font awesome*/
+
+.bootstrap-select .caret::before {
+  content: "";
 }

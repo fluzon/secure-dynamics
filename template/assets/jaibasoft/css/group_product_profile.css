@@ -55,9 +55,6 @@
   font-size: 24px;
   line-height: 33px;
   font-weight: bold;
-  /* identical to box height */
-
-  /* 3 */
   color: #173570;
  }
 
@@ -113,7 +110,7 @@
 
 .payment-option {
   display: inline-block;
-  background-image: url(../../global/images/check.png);
+  background-image: url(../images/check.png);
   background-position: left;
   background-repeat: no-repeat;
   margin-top: 9px;
@@ -185,34 +182,56 @@
 
 }
 .icon-weight {
-    background-image: url(../../global/images/weight.png);
+    background-image: url(../images/weight.png);
     background-repeat: no-repeat;
     background-position: 5px;
 }
 
 .icon-shipping {
-  background-image: url(../../global/images/shipping.png);
+  background-image: url(../images/shipping.png);
   background-repeat: no-repeat;
   background-position: left;
 }
 
 .icon-length {
-  background-image: url(../../global/images/length.png);
+  background-image: url(../images/length.png);
   background-repeat: no-repeat;
   background-position: left;
 }
 
 .icon-width {
-  background-image: url(../../global/images/width.png);
+  background-image: url(../images/width.png);
   background-repeat: no-repeat;
   background-position: left;
 }
 
 
 .icon-height {
-  background-image: url(../../global/images/height.png);
+  background-image: url(../images/height.png);
   background-repeat: no-repeat;
   background-position: left;
+}
+
+/* table head names*/
+.table thead tr th {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #173570;
+}
+
+.table tr td {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #173570;
+}
+
+.table tr td a {
+  text-decoration: none;
 }
 
 /* carousel*/

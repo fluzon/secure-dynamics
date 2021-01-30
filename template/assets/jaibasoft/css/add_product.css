@@ -27,6 +27,40 @@
   color: #173570;
 }
 
+.panel.panel-indicator {
+  background-color: #F9FBFF;
+  border: 1px solid #F0F6FF;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 24px rgba(40, 112, 152, 0.08);
+  -webkit-border-radius: 1.25rem!important;
+  -moz-border-radius: 1.25rem!important;
+  border-radius: 1.25rem!important;
+  width: 95%;
+}
+
+.indicator-name {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* 1 */
+  color: #0F3EB6;
+}
+
+ .indicator-number {
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: bold;
+  /* identical to box height */
+
+  /* 3 */
+  color: #173570;
+ }
+
 .panel.panel-product-data {
   border: 1px solid #F0F6FF;
   box-sizing: border-box;
@@ -79,7 +113,7 @@
 
 .payment-option {
   display: inline-block;
-  background-image: url(../../global/images/check.png);
+  background-image: url(../images/check.png);
   background-position: left;
   background-repeat: no-repeat;
   margin-top: 9px;
@@ -152,52 +186,52 @@
 }
 
 .icon-weight {
-    background-image: url(../../global/images/weight.png);
+    background-image: url(../images/weight.png);
     background-repeat: no-repeat;
     height: 18px;
 }
 
 .icon-cube {
-  background-image: url(../../global/images/cube.png);
+  background-image: url(../images/cube.png);
   background-repeat: no-repeat;
   height: 16px;
 }
 
 .icon-dollar {
-  background-image: url(../../global/images/dollar.png);
+  background-image: url(../images/dollar.png);
   background-repeat: no-repeat;
   height: 18px;
 }
 
 .icon-shipping {
-  background-image: url(../../global/images/shipping.png);
+  background-image: url(../images/shipping.png);
   background-repeat: no-repeat;
   height: 14px;
 }
 
 .icon-length {
-  background-image: url(../../global/images/length.png);
+  background-image: url(../images/length.png);
   background-repeat: no-repeat;
   height: 16px;
 }
 
 .icon-width {
-  background-image: url(../../global/images/width.png);
+  background-image: url(../images/width.png);
   background-repeat: no-repeat;
   height: 20px;
 }
 
 
 .icon-height {
-  background-image: url(../../global/images/height.png);
+  background-image: url(../images/height.png);
   background-repeat: no-repeat;
   height: 20px;
 }
 
 .icon-scan {
-  background-image: url(../../global/images/scan.png);
+  background-image: url(../images/scan.png);
   background-repeat: no-repeat;
-  height: 14px;
+  background-position: center;
 }
 
 .icon-info {
@@ -255,7 +289,7 @@
 
 /* links with right side icons*/
 .add-option{
-  background-image: url(../../global/images/plus.png);
+  background-image: url(../images/plus.png);
   background-position: 0px 1px;
   background-size: 19px 19px;
   background-repeat: no-repeat;
@@ -283,7 +317,7 @@ a.add-option:hover  {color:#0F3EB6; text-decoration: none;}
   font-size: 12px;
   line-height: 16px;
   color: #0F3EB6;
-  background-image: url(../../global/images/camera.png);
+  background-image: url(../images/camera.png);
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 112px;
@@ -333,36 +367,4 @@ a.add-option:hover  {color:#0F3EB6; text-decoration: none;}
 
 .remove:hover {
   text-decoration: none;
-}
-
-/*css rules added for Add Group Product*/
-.plus-button {
-  background-image: url(../../global/images/add.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  display: block;
-  width: 32px;
-  height: 32px;
-
-  border: 1px solid #0F3EB6;
-  -webkit-border-radius: 0.25rem!important;
-  -moz-border-radius: 0.25rem!important;
-  border-radius: 0.25rem!important;
-
-}
-
-.minus-button {
-  border: 1px solid #31D5EC;
-  box-sizing: border-box;
-  background-color: white;
-  -webkit-border-radius: 0.25rem!important;
-  -moz-border-radius: 0.25rem!important;
-  border-radius: 0.25rem!important;
-
-  background-image: url(../../global/images/minus.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  display: block;
-  width: 32px;
-  height: 32px;
 }
