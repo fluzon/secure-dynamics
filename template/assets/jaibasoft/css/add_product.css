@@ -354,15 +354,15 @@ a.add-option:hover  {color:#0F3EB6; text-decoration: none;}
   color: #173570;
 }
 
-[class*=" fa-"]:not(.fa-stack).remove, [class^="fa-"]:not(.fa-stack).remove {
-    line-height: 60px;
-}
-
 .remove {
-  font-size: 1.5rem;
+  background-image: url(../images/close-02.png);
+  background-position: center;
+  background-repeat: no-repeat;
   position: absolute;
-  top: 0px;
+  top: 25px;
   right: 15px;
+  width: 10px;
+  height: 10px;
 }
 
 .remove:hover {
