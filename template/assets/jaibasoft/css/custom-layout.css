@@ -310,5 +310,10 @@ this is for background in gray, but it's too gray for me
 /*font awesome*/
 
 .bootstrap-select .caret::before {
+  background-image: url(../images/selector-down.png) !important;
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 9px;
   content: "";
 }
+.bootstrap-select .caret::before
