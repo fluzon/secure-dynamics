@@ -1,0 +1,117 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "type": "product",
+            "brand": "Republic Windows and Doors",
+            "category": "Solid Wood Doors",
+            "title": "FLUSH DOORS - 30 mm Price",
+            "buy_price": "1.25",
+            "sell_price": "1.75",
+            "mrp": "1.85",
+            "current_stock": "60",
+            "threshold": "15",
+            "sub_products": []
+        },
+        {
+            "id": "2",
+            "type": "product",
+            "brand": "Republic Windows and Doors",
+            "category": "FRP Doors",
+            "title": "Fenesta Glass to Glass Window",
+            "buy_price": "5.75",
+            "sell_price": "6.25",
+            "mrp": "6.45",
+            "current_stock": "510",
+            "threshold": "10",
+            "sub_products": []
+        },
+        {
+            "id": "3",
+            "type": "product",
+            "brand": "Jeld-Wen",
+            "category": "Fe-500 TMT Steel Bars",
+            "title": "Birla TMT Fe-500 Grade-16m",
+            "buy_price": "730.00",
+            "sell_price": "756.00",
+            "mrp": "760.00",
+            "current_stock": "550",
+            "threshold": "50",
+            "sub_products": []
+        },
+        {
+            "id": "4",
+            "type": "group_product",
+            "brand": "Group Product 1",
+            "category": "Group Product",
+            "title": "Group Title",
+            "buy_price": "15085.00",
+            "sell_price": "17887.00",
+            "mrp": "760.00",
+            "current_stock": "NA",
+            "threshold": "NA",
+            "sub_products": [
+              {
+                  "id": "5",
+                  "brand": "Belden Brick Company",
+                  "category": "Clay Table Mould Brick",
+                  "title": "Red Brick - 9 x 4 x 3",
+                  "buy_price": "0.30",
+                  "sell_price": "0.45",
+                  "mrp": "0.55",
+                  "current_stock": "45000",
+                  "threshold": "4000"
+              },
+              {
+                  "id": "6",
+                  "brand": "Acme Brick",
+                  "category": "Clay Hollow Bricks",
+                  "title": "Brick Product",
+                  "buy_price": "0.25",
+                  "sell_price": "0.45",
+                  "mrp": "0.50",
+                  "current_stock": "50000",
+                  "threshold": "5000"
+              }
+            ]
+        },
+        {
+            "id": "7",
+            "type": "group_product",
+            "brand": "Group Product 2",
+            "category": "Group Product",
+            "title": "Group Title",
+            "buy_price": "15085.00",
+            "sell_price": "17887.00",
+            "mrp": "760.00",
+            "current_stock": "NA",
+            "threshold": "NA",
+            "sub_products": [
+              {
+                  "id": "8",
+                  "type": "product",
+                  "brand": "Republic Windows and Doors",
+                  "category": "Solid Wood Doors",
+                  "title": "FLUSH DOORS - 30 mm Price",
+                  "buy_price": "1.25",
+                  "sell_price": "1.75",
+                  "mrp": "1.85",
+                  "current_stock": "60",
+                  "threshold": "15"
+              },
+              {
+                  "id": "9",
+                  "type": "product",
+                  "brand": "Republic Windows and Doors",
+                  "category": "FRP Doors",
+                  "title": "Fenesta Glass to Glass Window",
+                  "buy_price": "5.75",
+                  "sell_price": "6.25",
+                  "mrp": "6.45",
+                  "current_stock": "510",
+                  "threshold": "10"
+              }
+            ]
+        }
+    ]
+}
