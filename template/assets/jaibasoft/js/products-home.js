@@ -17,7 +17,7 @@ function setChildProducts ( d ) {
                   '<td>' + d.sub_products[i].mrp + '</td>'+
                   '<td>' + d.sub_products[i].current_stock + '</td>'+
                   '<td>' + d.sub_products[i].threshold + '</td>'+
-                  '<td> <a class="table-icon-option" href="javascript:;"><i class="icon-edit"></i></a> <a class="table-icon-option" href="javascript:;"><i class="icon-newcheck"></i></a></td>'+
+                  '<td></td>'+
               '</tr>'
           );
           c.addClass('active');
@@ -52,7 +52,7 @@ $(document).ready(function() {
             { 'data': 'threshold' },
             { 'orderable': false,
               'render': function ( data, type, row, meta ) {
-                return '<span class="min-width"></span>';
+                return '<a class="table-icon-option" href="javascript:;"><i class="icon-edit"></i></a> <a class="table-icon-option" href="javascript:;"><i class="icon-newcheck"></i></a>';
               }
             }
 
