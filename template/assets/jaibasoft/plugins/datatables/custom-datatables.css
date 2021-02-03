@@ -834,3 +834,8 @@ tr.shown td.details-control {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.min-width {
+  display: block;
+  min-width: 35px;
+}

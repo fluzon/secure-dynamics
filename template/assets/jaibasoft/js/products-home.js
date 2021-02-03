@@ -9,7 +9,7 @@ function setChildProducts ( d ) {
     for (i in d.sub_products) {
 
       c = $('<tr>'+
-                  '<td>' + d.sub_products[i].brand + '</td>'+
+                  '<td style="padding-left:25px;">' + d.sub_products[i].brand + '</td>'+
                   '<td>' + d.sub_products[i].category + '</td>'+
                   '<td>' + d.sub_products[i].title + '</td>'+
                   '<td>' + d.sub_products[i].buy_price + '</td>'+
@@ -20,6 +20,7 @@ function setChildProducts ( d ) {
                   '<td> <a class="table-icon-option" href="javascript:;"><i class="icon-edit"></i></a> <a class="table-icon-option" href="javascript:;"><i class="icon-newcheck"></i></a></td>'+
               '</tr>'
           );
+          c.addClass('active');
 
        childs.push(c);
     }
@@ -51,7 +52,7 @@ $(document).ready(function() {
             { 'data': 'threshold' },
             { 'orderable': false,
               'render': function ( data, type, row, meta ) {
-                return '<a class="table-icon-option" href="javascript:;"><i class="icon-edit"></i></a> <a class="table-icon-option" href="javascript:;"><i class="icon-newcheck"></i></a>';
+                return '<span class="min-width"></span>';
               }
             }
 
