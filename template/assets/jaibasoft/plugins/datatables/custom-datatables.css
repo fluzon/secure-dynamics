@@ -834,3 +834,7 @@ tr.shown td.details-control {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+tr.bottom_separator > td{
+  border-bottom: 1px solid #173570;
+}

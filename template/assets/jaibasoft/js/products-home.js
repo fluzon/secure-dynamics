@@ -21,7 +21,10 @@ function setChildProducts ( d ) {
               '</tr>'
           );
           c.addClass('active');
-
+          if (i==(d.sub_products.length-1))
+          {
+            c.addClass('bottom_separator');
+          }
        childs.push(c);
     }
   }
